@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list>
+        <!-- Layer untuk teks stroke (luar) -->
+        <item>
+            <stroke android:layout_height="wrap_content" android:width="2dp" android:color="#020202" /> <!-- Warna stroke -->
+        </item>
+        <!-- Layer untuk teks isi (dalam) -->
+        <item>
+            <solid android:color="#020202" /> <!-- Warna teks -->
+        </item>
+    </layer-list>
+</selector>
